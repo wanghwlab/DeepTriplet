@@ -26,7 +26,7 @@ Using DeepTriplet to achieve different tasks, please import corresponding module
 
 
 ## How to run DeepTriplet for binding prediction
-For sequence-level prediction, please prepare your antigen-HLAI data and place them in a .csv file format similar to the test_antigenHLAI/sequence/test.csv provided. The column 'label' is optional. 
+For prediction, please prepare your Triplet data and place them in a .csv file format similar to the test/test.csv provided. 
 
 ```python
 python DeepTriplet.py
@@ -34,8 +34,8 @@ python DeepTriplet.py
 
 - **Input**: input csv file with 3 columns named as "CDR3, Peptide, HLA_type": TCR CDR3β sequence, peptide sequence, and HLA allele.
 ![preview](https://github.com/wanghwlab/DeepTriplet/blob/main/Img/example_input_file.png)
-- **Output**: 
-- **Output_log**: 
+- **Output**: diretory you want to save the output
+- **Output_log**: The local directory is used for log files, containing input triplet data, prediction progress, result statistics, and more.
 
 ## Expected output
 DeepTriplet outputs a table with 4 columns: CDR3 sequences, Peptide sequences, HLA alleles, and Prediction Binding Score for each pair of Triplet. 
