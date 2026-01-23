@@ -27,7 +27,7 @@ pip install -r requirements.txt
 *Note* : The installation of pytorch needs to correspond to your system, GPU and other versions, please check [PyTorch Version](https://pytorch.org/get-started/locally/).
 
 ## How to Use DeepTriplet
-Using DeepTriplet to achieve different tasks, please import corresponding module to your jupyter notebooks or scripts. 
+Using DeepTriplet for predicting triplet outcomes requires modifying the input file path and setting the prediction threshold in DeepTriplet.py. The default threshold is set to 0.58.
 
 
 ## How to run DeepTriplet for binding prediction
