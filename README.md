@@ -39,6 +39,7 @@ python DeepTriplet.py
 
 ## Expected output
 DeepTriplet outputs a table with 4 columns: CDR3 sequences, Peptide sequences, HLA alleles, and Prediction Binding Score for each pair of Triplet. 
+
 ![preview](https://github.com/wanghwlab/DeepTriplet/blob/main/img/example_output_file.png)
 
 ## Citation
