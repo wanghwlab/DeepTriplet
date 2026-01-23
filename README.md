@@ -2,7 +2,7 @@
 
 ## Introduction
 DeepTriplet is a Deep Learning-based Model for Predicting **HLA Class-I** TCR-pMHC **Triplet** Antigen Binding Prediction.
-![preview](https://github.com/wanghwlab/DeepTriplet/Model_Struction.png)
+![preview](https://github.com/wanghwlab/DeepTriplet/img/Pic_Framework.png)
 
 ## How to install DeepTriplet
 To install DeepTriplet, make sure you have installed [PyTorch](https://pytorch.org/). If you need more details on the dependences, look at the requirements.txt file.
@@ -33,13 +33,13 @@ python DeepTriplet.py
 ```
 
 - **Input**: input csv file with 3 columns named as "CDR3, Peptide, HLA_type": TCR CDR3β sequence, peptide sequence, and HLA allele.
-![preview](https://github.com/wanghwlab/DeepTriplet/Input_df.png)
+![preview](https://github.com/wanghwlab/DeepTriplet/img/example_input_file.png)
 - **Output**: 
 - **Output_log**: 
 
 ## Expected output
 DeepTriplet outputs a table with 4 columns: CDR3 sequences, Peptide sequences, HLA alleles, and Prediction Binding Score for each pair of Triplet. 
-![preview](https://github.com/wanghwlab/DeepTriplet/Output_df.png)
+![preview](https://github.com/wanghwlab/DeepTriplet/img/example_output_file.png)
 
 ## Citation
 ```tex
