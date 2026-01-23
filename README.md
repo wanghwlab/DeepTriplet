@@ -7,13 +7,18 @@ DeepTriplet is a Deep Learning-based Model for Predicting **HLA Class-I** TCR-pM
 ## How to install DeepTriplet
 To install DeepTriplet, make sure you have installed [PyTorch](https://pytorch.org/). If you need more details on the dependences, look at the requirements.txt file.
 
-- Set up conda environment for DeepTriplet
+- Clone the repository.
+```shell
+git clone https://github.com/wanghwlab/DeepTriplet.git
+```
+
+- Create a virtual environment by conda.
 ```shell
 conda create -n DeepTriplet python=3.9 -y
 conda activate DeepTriplet
 ```
 
-- Install DeepTriplet from shell
+- Install DeepTriplet from shell.
 ```shell
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 pip install -r requirements.txt
@@ -38,7 +43,7 @@ python DeepTriplet.py
 - **Output_log**: The local directory is used for log files, containing input triplet data, prediction progress, result statistics, and more.
 
 ## Expected output
-DeepTriplet outputs a table with 4 columns: CDR3 sequences, Peptide sequences, HLA alleles, and Prediction Binding Score for each pair of Triplet. 
+DeepTriplet outputs a table with 5 columns: CDR3 sequences, Peptide sequences, HLA alleles, Prediction Binding Score, and Label for each pair of Triplet. 
 
 ![preview](https://github.com/wanghwlab/DeepTriplet/blob/main/Img/example_output_file.png)
 
