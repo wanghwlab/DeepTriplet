@@ -4,7 +4,7 @@
 DeepTriplet is a Deep Learning-based Model for pMHC-TCR Binding Prediction.
 ![preview](https://github.com/wanghwlab/DeepTriplet/blob/main/Img/Pic_Framework.png)
 
-## How to install DeepTriplet
+## How to install
 To install DeepTriplet, make sure you have installed [PyTorch](https://pytorch.org/). If you need more details on the dependences, look at the requirements.txt file.
 
 - Clone the repository.
@@ -26,11 +26,11 @@ pip install -r requirements.txt
 
 *Note* : The installation of pytorch needs to correspond to your system, GPU and other versions, please check [PyTorch Version](https://pytorch.org/get-started/locally/).
 
-## How to Use DeepTriplet
+## How to Use
 Using DeepTriplet for predicting triplet outcomes requires modifying the input file path and setting the prediction threshold in DeepTriplet.py. The default threshold is set to 0.58.
 
 
-## How to run DeepTriplet for binding prediction
+## How to run
 For prediction, please prepare your Triplet data and place them in a .csv file format similar to the test/test.csv provided. 
 
 ```python
@@ -60,4 +60,4 @@ DeepTriplet outputs a table with 5 columns: CDR3 sequences, Peptide sequences, H
 ```
 
 ## Contact
-If you have any questions, please contact us at [yanglei59@mail2.sysu.edu.cn](mailto:yanglei59@mail2.sysu.edu.cn) or [wanghw0425@gmail.com](mailto:wanghw0425@gmail.com).
+If you have any questions, please contact us at [yanglei59@mail2.sysu.edu.cn](mailto:yanglei59@mail2.sysu.edu.cn) or [wanghongwei@gzzoc.com](mailto:wanghongwei@gzzoc.com).
