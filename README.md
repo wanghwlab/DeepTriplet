@@ -1,7 +1,7 @@
 # **DeepTriplet**
 
 ## Introduction
-DeepTriplet is a Deep Learning-based Model for Predicting **HLA Class-I** TCR-pMHC **Triplet** Antigen Binding Prediction.
+DeepTriplet is a Deep Learning-based Model for pMHC-TCR Binding Prediction.
 ![preview](https://github.com/wanghwlab/DeepTriplet/blob/main/Img/Pic_Framework.png)
 
 ## How to install DeepTriplet
